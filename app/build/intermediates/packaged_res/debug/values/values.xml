@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="accent_gold">#D4AF37</color>
+    <color name="background_cream">#FFF8F0</color>
+    <color name="black">#000000</color>
+    <color name="nav_selected">#8B0000</color>
+    <color name="nav_unselected">#999999</color>
+    <color name="primary_maroon">#8B0000</color>
+    <color name="primary_maroon_dark">#5D0000</color>
+    <color name="splash_bg">#6D0000</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="whatsapp_green">#25D366</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Namma Vastra</string>
+    <string name="app_tagline">AI Powered Handloom Marketplace</string>
+    <string name="calculate">Calculate Price</string>
+    <string name="gcm_defaultSenderId" translatable="false">123456789</string>
+    <string name="google_api_key" translatable="false">YOUR_API_KEY_HERE</string>
+    <string name="google_app_id" translatable="false">1:123456789:android:abcdef1234567890</string>
+    <string name="google_crash_reporting_api_key" translatable="false">YOUR_API_KEY_HERE</string>
+    <string name="google_storage_bucket" translatable="false">namma-vastra-demo.appspot.com</string>
+    <string name="loom_gallery">Loom Gallery</string>
+    <string name="price_calculator">Price Calculator</string>
+    <string name="project_id" translatable="false">namma-vastra-demo</string>
+    <string name="reset">Reset</string>
+    <string name="trend_board">Trend Board</string>
+    <string name="upload_saree">Upload Saree</string>
+    <string name="weaver_story">Weaver Stories</string>
+    <string name="whatsapp_inquiry">WhatsApp Inquiry</string>
+    <style name="Theme.NammaVastra" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary_maroon</item>
+        <item name="colorPrimaryVariant">@color/primary_maroon_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent_gold</item>
+        <item name="colorSecondaryVariant">@color/accent_gold</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/primary_maroon_dark</item>
+    </style>
+    <style name="Theme.NammaVastra.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.NammaVastra.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.NammaVastra.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Theme.NammaVastra.Splash" parent="Theme.NammaVastra.NoActionBar">
+        <item name="android:windowBackground">@color/splash_bg</item>
+    </style>
+</resources>

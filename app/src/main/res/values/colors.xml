@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_maroon">#8B0000</color>
+    <color name="primary_maroon_dark">#5D0000</color>
+    <color name="accent_gold">#D4AF37</color>
+    <color name="background_cream">#FFF8F0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="splash_bg">#6D0000</color>
+    <color name="whatsapp_green">#25D366</color>
+    <color name="nav_selected">#8B0000</color>
+    <color name="nav_unselected">#999999</color>
+</resources>

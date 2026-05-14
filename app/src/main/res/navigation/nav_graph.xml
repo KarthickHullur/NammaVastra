@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_trend_board">
+
+    <fragment
+        android:id="@+id/navigation_trend_board"
+        android:name="com.nammaVastra.app.ui.trendboard.TrendBoardFragment"
+        android:label="Trend Board" />
+
+    <fragment
+        android:id="@+id/navigation_loom_gallery"
+        android:name="com.nammaVastra.app.ui.loomgallery.LoomGalleryFragment"
+        android:label="Loom Gallery" />
+
+    <fragment
+        android:id="@+id/navigation_price_calculator"
+        android:name="com.nammaVastra.app.ui.pricecalculator.PriceCalculatorFragment"
+        android:label="Price Calculator" />
+
+    <fragment
+        android:id="@+id/navigation_weaver_story"
+        android:name="com.nammaVastra.app.ui.weaverstory.WeaverStoryFragment"
+        android:label="Weaver Stories" />
+
+</navigation>

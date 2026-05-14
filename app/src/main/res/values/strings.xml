@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma Vastra</string>
+    <string name="trend_board">Trend Board</string>
+    <string name="loom_gallery">Loom Gallery</string>
+    <string name="price_calculator">Price Calculator</string>
+    <string name="weaver_story">Weaver Stories</string>
+    <string name="app_tagline">AI Powered Handloom Marketplace</string>
+    <string name="whatsapp_inquiry">WhatsApp Inquiry</string>
+    <string name="upload_saree">Upload Saree</string>
+    <string name="calculate">Calculate Price</string>
+    <string name="reset">Reset</string>
+</resources>

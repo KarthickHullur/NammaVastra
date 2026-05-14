@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_cream">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Image placeholder -->
+        <ImageView
+            android:id="@+id/ivSareeImage"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_saree_ilkal"
+            android:background="@color/primary_maroon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvSareeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_maroon"
+                android:layout_marginTop="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/tvCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/badge_background"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:padding="6dp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_marginVertical="16dp" />
+
+            <TextView
+                android:id="@+id/tvWeaverName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/text_primary"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginTop="12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_marginVertical="16dp" />
+
+            <!-- Action Buttons -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnWhatsApp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="💬 Inquire on WhatsApp"
+                android:textSize="15sp"
+                android:backgroundTint="#25D366"
+                android:layout_marginBottom="12dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCall"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="📞 Call Weaver"
+                android:textSize="15sp"
+                android:backgroundTint="@color/primary_maroon"
+                android:layout_marginBottom="24dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:strokeColor="@color/primary_maroon"
+                android:textColor="@color/primary_maroon" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
